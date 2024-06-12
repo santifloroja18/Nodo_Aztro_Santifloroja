@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+<fieldset>
+    <form action="submit" method="get">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" required>
+        <label for="lastname">Apellido</label>
+        <input type="text" name="lastname" id="lastname" required>
+        <label for="email">Correo</label>
+        <input type="email" name="email" id="email" required>
+        <label for="address">Dirección</label>
+        <input type="text" name="address" id="address">
+        <label for="state">Departamento</label>
+        <input type="text" name="state" id="state">
+        <label for="country">País</label>
+        <input type="text" name="country" id="country" required>
+        <label for="phoneNumber">Telefono de Contacto</label>
+        <input type="text" name="phoneNumber" id="phoneNumber">
+        <label for="description">Descripción</label>
+        <input type="text" name="description" id="description">
+        <label for="career">¿A que carrera deseas inscribirte?</label>
+        <select name="career" id="career" required>
+            <option value="JOBS TO BE DONE">JOBS TO BE DONE</option>
+            <option value="CLOUD NATIVE">CLOUD NATIVE</option>
+            <option value="FRONTEND">FRONTEND</option>
+            <option value="FUNDAMENTALS">FUNDAMENTALS</option>
+            <option value="PYTHON">PYTHON</option>
+            <option value="MARKETING DIGITAL">MARKETING DIGITAL</option>
+        </select>
+        <label for="career">Modalidad</label>
+        <select name="career" id="career" required>
+            <option value="Presencial">Presencial</option>
+            <option value="Online">Online</option>
+        </select>
+        <label for="work">¿Estás trabajando actualmente?</label>
+        <input type="radio" value="Si">Si
+        <input type="radio" value="No">No
+        <button type="submit">Enviar Formulario</button>
+        <button type="reset">Reiniciar Formulario</button>
+    </form>
+</fieldset>
+</body>
+</html>
