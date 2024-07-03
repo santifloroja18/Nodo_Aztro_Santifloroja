@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica Secuencial</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/calcular.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./pages/calcular-rectangulo.html">Calculadora de Rectángulo</a></li>
+                <li><a href="./pages/calcular-circulo.html">Calculadora de Circulo</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <form >
+
+        <img src="../images/circulo-img.png" alt="circulo-img">
+
+        <div id="datos">
+            <label for="Radio">Radio del Circulo</label>
+            <input type="number" placeholder="Escribe el Radio del Circulo" id="Radio">    
+        </div>
+
+        <br>
+        <label for="area">Área:</label>
+        <p id="area"></p>
+
+        <br>
+        <label for="circunferencia">Perimetro:</label>
+        <p id="circunferencia"></p>
+
+        <br>
+        <input type="button" value="Calcular" onclick="calcularCirculo()">
+    </form>
+</body>
+</html>

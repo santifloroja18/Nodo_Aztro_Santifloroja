@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica Secuencial</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/calcular.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="calcular-rectangulo.html">Calculadora de Rectángulo</a></li>
+                <li><a href="calcular-circulo.html">Calculadora de Circulo</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <form >
+
+        <img src="../images/rectangulo-img.jpg" alt="rectangulo-img">
+
+        <div id="datos">
+            <label for="Base">Base del Rectángulo</label>
+            <input type="number" placeholder="Escribe el Base del Rectángulo" id="Base">
+            <label for="Altura">Altura del Rectángulo</label>
+            <input type="number" placeholder="Escribe el Altura del Rectángulo" id="Altura">
+        </div>
+
+
+        <br>
+        <label for="area">Área:</label>
+        <p id="area"></p>
+
+        <br>
+        <label for="perimetro">Perimetro:</label>
+        <p id="perimetro"></p>
+
+        <br>
+        <input type="button" value="Calcular" onclick="calcularRectangulo()">
+    </form>
+</body>
+</html>
