@@ -1,0 +1,1 @@
+// Un nadador necesita conocer el promedio final de tiempo que gasta en recorrer una piscina de 100 metros, sabiendo que en el día el realiza cinco pruebas medidas en segundos.

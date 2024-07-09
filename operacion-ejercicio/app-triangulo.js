@@ -14,3 +14,5 @@ function sumar() {
     document.getElementById('resultado2')
 
 }
+
+// document.appendChild Para agregar algo a un html desde el js por medio de dicho metodo

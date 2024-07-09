@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./app-super.js"></script>
+    <title>Super</title>
+</head>
+<body>
+    <h1>TOTAL DE COMPRA</h1>
+    <form id="form-compra">
+        <select name="" id="afiliacion">
+            <option value="0" disabled selected>Afiliado a Plata</option>
+            <option value="1">NO AFILIADO</option>
+            <option value="2">PLATA</option>
+            <option value="3">ORO</option>
+        </select>
+        <br>
+        <input type="number" id="vCompra" step="0.1" placeholder="Valor de la Compra">
+        <br>
+        <label for="descuento">Descuento</label>
+        <input type="text" name="" id="descuento" readonly>
+        <br>
+        <label for="total">Total a Pagar</label>
+        <input type="text" id="total">
+        <br>
+
+        <input type="button" value="Calcular"  onclick="calcularCompra()">
+    </form>
+</body>
+</html>
