@@ -1,0 +1,34 @@
+/** Globales */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); // Fuente 1
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); // Fuente 2
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap'); // Fuente 3
+
+
+$primario: #8841DA;
+$secundario: #3F579A;
+$oscuro: #333333;
+$gris: #aeadad;
+$color-text-btn: #FFF; 
+$fuente1: "Oswald", sans-serif;
+$fuente2: "Lato", sans-serif;
+$fuente3: "Delicious Handrawn", cursive;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin estilos-texto($color:#1bf41b, $t-letra:5px, $tipo-letra:'Arial'){
+    font-family: $tipo-letra;
+    color: $color;
+    font-size: $t-letra;
+    text-align: center;
+
+    @if $tipo-letra == $fuente1{
+        text-transform: uppercase;
+    } @else{
+        text-transform: uppercase;
+    }
+}
